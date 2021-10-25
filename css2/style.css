@@ -1,0 +1,115 @@
+/*logo*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.logo-container{
+    width: 100%;
+    margin-top: 25px;
+}
+
+.logo-container img{
+    display: block;
+    width: 351px;
+    height: 113px;
+    margin: 0 auto;
+}
+/*logo */
+
+/* Search Bar */
+#search-bar {
+    display: block;
+    width: 1133px;
+    height: 62px;
+    margin: 0 auto;
+    background-color: #EEEEEE;
+
+}
+
+input[type=text], label {
+    display: block;
+    margin: 0 auto 0;
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+}
+
+/*footer */
+
+.footer-wrapper{
+    width: 1133px;
+    height: 75px;
+    margin: 2px auto;
+}
+
+/*column1*/
+
+.column1{
+    background-color: #7ee6da;
+    width: 417px;
+    height: 75px;
+    float: left;
+    text-align: left;
+}
+
+.column1>p {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.column1>a{
+    margin-top: 0px;
+} 
+
+.column2{
+    background-color: #70CCC3;
+    width: 243px;
+    height: 75px;
+    margin: 0px 2px 0px 2px;
+    float: left;
+    text-align: center;
+
+}
+
+.column2>a{
+    font-size: 13px;
+}
+.column3{
+    background-color:#62B3AB ;
+    width: 469px;
+    height: 75px;
+    float: left;
+
+}
+.column3>p{
+    text-align: center;
+    font-size: 13px;
+    margin: 0 !important;
+    padding: 0px;
+}
+
+.column3 [type=text]{
+    width: 153px;
+    height: 21px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.column3>form{
+    text-align: center;
+
+}
+.column3 a{
+    font-size: 13px;
+}
+
+
+/* Copyright */
+#copyright{
+    font-size: 13px;
+    text-align: center;  
+    margin-top: 16px;
+}
